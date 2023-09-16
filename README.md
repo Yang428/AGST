@@ -62,7 +62,7 @@ There are the [raw resullts](https://github.com/Yang428/AGST/tree/master/results
 Network path: pytracking/parameters/agst/agst.py  params.segm_net_path.
 Results path: pytracking/evaluation/local.py  settings.network_path, settings.results_path, dataset_path.
 ```
-3) Run the FEAST tracker on Got10k, TrackingNet, OTB100, UAV123, LaSOT, NFS and TCL128 datasets.
+3) Run the AGST tracker on Got10k, TrackingNet, OTB100, UAV123, LaSOT, NFS and TCL128 datasets.
 ```
 cd pytracking
 python run_experiment.py myexperiments got10k
@@ -103,6 +103,8 @@ Dataset: ltr/admin/local.py  vos_dir.
 ```
 cd ltr
 python run_training.py segm segm_default
+then enable the distractor-aware loss in the 'AGST\ltr\train_settings\segm\segm_default.py'
+run additional 5 epochs
 ```
 
 ## Acknowledgement
