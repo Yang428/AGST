@@ -40,10 +40,10 @@ sudo apt-get install libturbojpeg
 You can download the packed conda environment from the [Baidu cloud link](https://pan.baidu.com/s/1gMQOB2Zs1UPj6n8qzJc4Lg?pwd=qjl2), the extraction code is 'qjl2'.
 
 #### Download the pre-trained networks
-You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1gDHbLW3DeiVkx7iHtitnAw?pwd=5sfo), the extraction code is '5sfo'. Then put the model files 'DPETNet.pth.tar' to the subfolder 'pytracking/networks'.
+You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1BarJfydZaiEbyI-usK2OkQ?pwd=thn4), the extraction code is 'thn4'. Then put the model files 'SegmNet.pth.tar' and 'IoUnet.pth.tar' to the subfolder 'pytracking/networks'.
 
 ## Testing the tracker
-There are the [raw resullts](https://github.com/Yang428/DPET/tree/master/resultsOnBenchmarks) on eight datasets. 
+There are the [raw resullts](https://github.com/Yang428/AGST/tree/master/resultsOnBenchmarks) on eight datasets. 
 1) Download the testing datasets OTB-100, LaSOT, Got-10k, TrackingNet, VOT2016, VOT2018, VOT2019 and VOT2020 from the following Baidu cloud links.
 * [Got-10k](https://pan.baidu.com/s/1t_PvpIicHc0U9yR4upf-cA), the extraction code is '78hq'.
 * [TrackingNet](https://pan.baidu.com/s/1BKtc4ndh_QrMiXF4fBB2sQ), the extraction code is '5pj8'.
