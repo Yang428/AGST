@@ -1,6 +1,12 @@
-# AGST Tracker
+# AGST - Attention-based Gating network for Segmentation Tracking
 
-The main codes of the AGST tracker will be available as soon as possible.
+## Publication
+Yijin Yang and Xiaodong Gu.
+Attention-based Gating Network for Robust Segmentation Tracking.
+TCSVT, 2024.
+
+# Abstract
+Visual object tracking is a challenging task that aims to accurately estimate the scale and position of a designated target. Recently, segmentation networks have proven effective in visual tracking, producing outstanding results for target scale estimation. However, segmentation-based trackers still lack robustness due to the presence of similar distractors. To mitigate this issue, we propose an Attention-based Gating Network (AGNet) that produces gating weights to diminish the impact of feature maps linked to similar distractors. Subsequently, we incorporate the AGNet into the segmentation-based tracking paradigm to achieve accurate and robust tracking. Specifically, the AGNet utilizes three cascading Multi-Head Cross-Attention (MHCA) modules to generate gating weights that govern the generation of feature maps in the baseline tracker. The proficiency of the MHCA in modeling global semantic information effectively suppresses feature maps associated with similar distractors. Additionally, we introduce a distractor-aware training strategy that leverages distractor masks to train our model. To alleviate the issue of partial occlusion, we introduce a box refinement module to enhance the accuracy of the predicted target box. Comprehensive experiments conducted on 11 challenging tracking benchmarks show that our approach significantly surpasses the baseline tracker across all metrics and achieves excellent results on multiple tracking benchmarks.
 
 ## Running Environments
 * Pytorch 1.1.0, Python 3.6.12, Cuda 9.0, torchvision 0.3.0, cudatoolkit 9.0, Matlab R2016b.
