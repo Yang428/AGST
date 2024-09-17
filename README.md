@@ -117,7 +117,7 @@ run additional 5 epochs
 We would like to thank the author Martin Danelljan of [pytracking](https://github.com/visionml/pytracking) and the author Alan Lukežič of [D3S](https://github.com/alanlukezic/d3s).
 
 ## <b>BibTex citation:</b></br>
-@ARTICLE{Yijin2023,<br>
+@ARTICLE{Yijin2024,<br>
 title = {Attention-based Gating Network for Robust Segmentation Tracking},<br>
 author = {Yijin, Yang. and Xiaodong, Gu.},<br>
 journal = {TCSVT},<br>
