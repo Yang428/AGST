@@ -115,3 +115,14 @@ run additional 5 epochs
 
 ## Acknowledgement
 We would like to thank the author Martin Danelljan of [pytracking](https://github.com/visionml/pytracking) and the author Alan Lukežič of [D3S](https://github.com/alanlukezic/d3s).
+
+## <b>BibTex citation:</b></br>
+@ARTICLE{Yijin2023,<br>
+title = {Joint Correlation and Attention Based Feature Fusion Network for Accurate Visual Tracking},<br>
+author = {Yijin, Yang. and Xiaodong, Gu.},<br>
+journal = {TIP},<br>
+volume  = {32},<br>
+pages = {1705-1715},<br>
+year    = {2023},<br>
+doi = {10.1109/TIP.2023.3251027}<br>
+}
